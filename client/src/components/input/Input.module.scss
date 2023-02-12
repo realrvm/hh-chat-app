@@ -1,0 +1,13 @@
+.input {
+  padding: rem(10) rem(16);
+  border-radius: rem(5);
+  width: 100%;
+  background-color: var(--elem-bg);
+  border: 1px solid transparent;
+  color: var(--white);
+
+  &:focus {
+    outline: none;
+    border: 1px solid var(--green);
+  }
+}

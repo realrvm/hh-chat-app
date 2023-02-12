@@ -1,0 +1,21 @@
+.talks {
+  &_title {
+    font-size: rem(32);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: rem(32);
+    color: var(--green);
+  }
+
+  &_form {
+    display: grid;
+    grid-template-columns: minmax(rem(50), rem(100)) 1fr;
+    align-items: center;
+    justify-items: end;
+    gap: rem(20) rem(30);
+  }
+
+  &_btn {
+    grid-column: 1 / -1;
+  }
+}

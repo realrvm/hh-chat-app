@@ -1,0 +1,49 @@
+@import './styles/reset';
+@import '@fontsource/inter';
+$base-font-size: 16px;
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-size: $base-font-size;
+}
+
+:root {
+  --body-color: hsl(236, 7%, 54%);
+  --theme-bg: hsl(249, 19%, 14%);
+  --elem-bg: hsl(249, 11%, 23%);
+  --white: hsl(0, 0%, 100%);
+  --green: hsl(164, 57%, 55%);
+  --toastify-color-light: hsl(249, 11%, 23%);
+  --toastify-text-color-light: hsl(164, 57%, 55%);
+}
+
+*,
+*::before,
+*::after {
+  outline: none;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--body-color);
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+@import './styles/sass';

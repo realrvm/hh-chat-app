@@ -1,0 +1,14 @@
+.btn {
+  padding: rem(15) 0;
+  border-radius: rem(5);
+  width: 100%;
+  background-color: var(--elem-bg);
+  border: none;
+  color: var(--green);
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid var(--green);
+  }
+}

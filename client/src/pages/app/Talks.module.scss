@@ -1,0 +1,45 @@
+.talks {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: rem(240);
+  margin: rem(12);
+  padding: rem(8);
+  gap: rem(12);
+  background-color: var(--body-color);
+
+  &_btn {
+    padding: rem(15) rem(30);
+    font-size: rem(24);
+    background-color: var(--elem-bg);
+    color: var(--green);
+    border-radius: rem(5);
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid var(--green);
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  &_active {
+    background-color: var(--green);
+    color: var(--white);
+  }
+
+  &_inactive {
+    background-color: var(--elem-bg);
+  }
+}
+
+.hr {
+  border: 1px solid var(--green);
+
+  &_bottom {
+    margin-top: auto;
+  }
+}
